@@ -40,7 +40,7 @@ This file contains the thesis report.
 The required Python 3.8 packages for running the code contained in this repository can be found in the `requirements.txt` file and installed directly through pip.
 
 ### /models
-This folder stores the finetuned models after running `train_aspect.ipynb` and `train_sentiment.ipynb`. They can be loaded from here for 
+This folder stores the finetuned models after running `train_aspect.ipynb` and `train_sentiment.ipynb`. Then, they can be loaded from here.
 
 ## References
 The code used for the fine-tuning step was adopted and modified for this task from the work of [George Mihaila](https://github.com/gmihaila).\
