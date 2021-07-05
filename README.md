@@ -33,13 +33,13 @@ This folder contains the scripts and notebooks used for this project. They were 
 This folder contained private airline customers feedback data used for the project.\
 For illustration purposes, an example file, showing the structure of the datasets used for training, validation, and testing, is included to this folder.
 
-## `Catanese-MasterThesis.pdf`
+### `Catanese-MasterThesis.pdf`
 This file contains the thesis report.
 
-## `requirements.txt`
+### `requirements.txt`
 The required Python 3.8 packages for running the code contained in this repository can be found in the `requirements.txt` file and installed directly through pip.
 
-## /models
+### /models
 This folder stores the finetuned models after running `train_aspect.ipynb` and `train_sentiment.ipynb`. They can be loaded from here for 
 
 ## References
