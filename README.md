@@ -15,16 +15,16 @@ The details about the development process, models setup, and results can be foun
 
 ## Folders
 ### /code
-This folder contains the scripts and notebooks used for this project. They were run in this order for the project.
+This folder contains the scripts and notebook used for this project. They were run in this order for the project.
 
-* `create_annotation_data.ipynb` this notebooks creates the datasets used for the annotation process from the original dataset provided by the client.
-* `agreement.ipynb` this notebooks calculated the Inter Annotator Agreement between the three annotators on the same batch of 50 sentences.
-* `unify_dataset.ipynb` this notebooks merges the three annotated sets into one complete dataset consisting of 2495 sentences.
-* `stats.ipynb` this notebooks extract the statistics regarding the complete annotated dataset.
-* `train_aspect.ipynb` this notebooks finetunes a selected language model between BERT and RoBERTa for Aspect Category Detection. The fine-tuned model is eventually saved to `/models`, to be loaded later on.
-* `train_sentiment.ipynb` this notebooks finetunes a selected language model between BERT and RoBERTa for Sentiment Polarity classification. The fine-tuned model is eventually saved to `/models`, to be loaded later on.
+* `create_annotation_data.ipynb` this notebook creates the datasets used for the annotation process from the original dataset provided by the client.
+* `agreement.ipynb` this notebook calculated the Inter Annotator Agreement between the three annotators on the same batch of 50 sentences.
+* `unify_dataset.ipynb` this notebook merges the three annotated sets into one complete dataset consisting of 2495 sentences.
+* `stats.ipynb` this notebook extract the statistics regarding the complete annotated dataset.
+* `train_aspect.ipynb` this notebook finetunes a selected language model between BERT and RoBERTa for Aspect Category Detection. The fine-tuned model is eventually saved to `/models`, to be loaded later on.
+* `train_sentiment.ipynb` this notebook finetunes a selected language model between BERT and RoBERTa for Sentiment Polarity classification. The fine-tuned model is eventually saved to `/models`, to be loaded later on.
 * `baseline.py` this script runs and evaluates a Majority Baseline used for comparison purposes.
-* `results.ipynb` this notebooks loads the finetuned models for evalutation and results analysis. Output files containing the results are generated when run.
+* `results.ipynb` this notebook loads the finetuned models for evalutation and results analysis. Output files containing the results are generated when run.
 * `utils.py` this script contains some helper functions.
 * `absa_output.txt` this file is an explainatory example of the output of the `results.ipynb` notebook. 
 
